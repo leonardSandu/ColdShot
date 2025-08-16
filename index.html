@@ -102,6 +102,18 @@
     @media (max-width: 767px) { .container { padding: 0 1rem; } .section-container { padding: 2rem 0; } .card { padding: 1.5rem; } header { padding: 0.75rem 1rem; } .logo { font-size: 1.5rem; } .header-controls { gap: 0.75rem; } .date-badge { padding: 0.4rem 0.8rem; font-size: 0.8rem; } #archive-button { padding: 0.5rem 1rem; font-size: 0.9rem; } .footer-bottom { flex-direction: column; align-items: center; gap: 1.5rem; } .footer-links { order: 1; } .footer-copyright { order: 2; margin-left: 0; } .certifications-table { border: none; box-shadow: none; background: transparent; } .certifications-table thead { display: none; } .certifications-table, .certifications-table tbody, .certifications-table tr, .certifications-table td { display: block; width: 100%; } .certifications-table tr { margin-bottom: 1rem; border-radius: 8px; overflow: hidden; background-color: var(--white); box-shadow: var(--shadow-sm); } .certifications-table td { text-align: right; position: relative; padding-left: 50%; border-bottom: 1px solid var(--neutral-medium); } .certifications-table tr:last-child { margin-bottom: 0; } .certifications-table td:last-child { border-bottom: 0; } .certifications-table td[data-label]::before { content: attr(data-label); position: absolute; left: 1rem; width: 45%; padding-right: 1rem; font-weight: 700; text-align: left; color: var(--starbucks-green); } }
     @media (max-width: 480px) { .timeline-card { flex-direction: column; text-align: center; gap: 1rem; } #editor-apply-btn .btn-text { display: none; } #editor-apply-btn { width: 40px; height: 40px; padding: 0; } .hero h1 { padding: 1rem 1.5rem; } }
     @keyframes shining-gold-glow { 0% { box-shadow: 0 0 8px 0px rgba(203, 170, 108, 0.7); } 50% { box-shadow: 0 0 16px 4px rgba(203, 170, 108, 0.9); } 100% { box-shadow: 0 0 8px 0px rgba(203, 170, 108, 0.7); } }
+    /* --- FIX FOR MULTI-LINE DESCRIPTIONS --- */
+    #featured-project-desc,
+    #master-speaks-quote,
+    #editor-word-desc,
+    #champion-word-desc,
+    #spread-kindness-text,
+    #knowledge-bites-text,
+    #monthly-challange-desc,
+    #matcha-zone-desc,
+    .project-card p {
+        white-space: pre-wrap;
+    }
 </style>
 
 </head>
