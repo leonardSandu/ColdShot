@@ -1,0 +1,15 @@
+{
+    "certifications": [
+      {
+        "name": "Name",
+        "date": "2035-08-20",
+        "store": "Main Street Roastery"
+      },
+      {
+        "name": "Name",
+        "date": "2035-09-05",
+        "store": "Downtown Espresso"
+      }
+    ]
+  }
+  
